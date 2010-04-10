@@ -1,0 +1,17 @@
+<div class="admin_area">
+  <div id="upload">
+    <h1>Add A Song</h1>
+    <form action='/upload' method='post' enctype='multipart/form-data'>
+      <input type='file' name='file' /><br />
+      <input type="submit" value="Upload" class="button darkBtn"/><br />
+    </form>
+  </div>
+<div id="admin_playlist">
+  <ul class="playlist">
+	<% unless @songs.empty?  %>
+	  <% @songs.each do |song| %>
+	    <li><a href="/songs/<%= song %>.mp3"><%= song %></a></li>
+	  <% end %>
+	<% end %>
+  </ul>
+</div>  

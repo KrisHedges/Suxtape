@@ -1,0 +1,19 @@
+* { margin 0; padding: 0; }
+body { margin: inherit; font-family: Helvetica, Arial, "Geneva", "Tahoma", "Lucida Grande", "Trebuchet MS", sans-serif; font-size: 1em; color:#3F0000;}
+a { color:#800000;}
+a:visted { color:#800000;}
+a:hover { color:#3F0000;}
+form { display: inline; }
+label {margin: 0 6px;}
+input { padding:3px; margin:0px 0 0 0;}
+#header {width:100%; background: #3F0000; color: #FFFAFA; padding: 0; margin: 0 0 1px 0; height:102px; background-image:url('../images/suxtape_logo.jpg'); background-repeat:no-repeat;}
+#nav { float:right; color:#fff;margin:10px;}
+#nav a{color:#fff; text-decoration:none;}
+#nav a:hover;{color:#fff; text-decoration:underline;}
+.admin_area { width:930px; margin:0 auto; padding:0;}
+.button {font-weight:bold;display:inline; border:0px; cursor:pointer; padding:8px; text-align:center; margin:15px 15px 15px 0px; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+.button.darkBtn { background-color:#3f0000; font-size:0.9em;color:#fff;}
+.button.darkBtn:hover { background-color:#800000;}
+#control-template { display:none;}
+#upload{ display:inline;float:left;width:300px;margin:0px;padding:0px;}
+#admin_playlist{ display:inline;float:left;width:600px;}

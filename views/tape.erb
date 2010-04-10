@@ -1,0 +1,7 @@
+<ul class="playlist">
+<% unless @songs.empty?  %>
+	<% @songs.each do |song| %>
+	  <li><a href="/songs/<%= song %>.mp3"><%= song %></a></li>
+	<% end %>
+<% end  %>
+</ul>
