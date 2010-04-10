@@ -1,0 +1,5 @@
+*.DS_Store
+.DS_Store
+public/songs/*.mp3
+config/*
+config.ru
